@@ -17,7 +17,7 @@ window.normid = {
   },
   getRSSFeed() {
     console.log('Getting Normið RSS feed');
-    const rssUrl = 'https://normid-rss.webpengu.in';
+    const rssUrl = 'https://normid.webpengu.in/api/feed';
 
     fetch(rssUrl)
       .then(response => response.text())
